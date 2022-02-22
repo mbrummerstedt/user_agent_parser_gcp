@@ -24,7 +24,7 @@ Python has a good library for this, which is why we use a python cloud-function 
 4. Create a Cloud Schedueler that sends messages to your pub/sub topic
 5. Create a Google Cloud Function with the code that get's triggered by your pub/sub topic. 
 
-Add the following runtime variables to your cloud function: 
+### Add the following runtime variables to your cloud function:
 
 - **project_id:** The id of of your GCP project
 - **data_location:** The location of your BigQuery data (e.g. EU or US)
